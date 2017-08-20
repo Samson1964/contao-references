@@ -1,0 +1,11 @@
+<?php $this->extend('block_searchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<ul>
+<?php foreach ($this->references as $item): ?>
+	<li>[<?= $item['nummer'] ?>] <?= $item['text'] ?></li>
+<?php endforeach; ?>
+</ul>
+
+<?php $this->endblock(); ?> 
