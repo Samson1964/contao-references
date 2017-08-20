@@ -1,0 +1,20 @@
+.ce_references
+{
+	margin-bottom: 10px;
+}
+
+.ce_references h1, .ce_references h2, .ce_references h3, .ce_references h4, .ce_references h5, .ce_references h6
+{
+	font-size    : 16px;
+}
+
+.ce_references h1:after, .ce_references h2:after, .ce_references h3:after, .ce_references h4:after, .ce_references h5:after, .ce_references h6:after
+{
+	content      : ':';
+}
+
+.ce_references li
+{
+	font-style   : italic;
+	color        : #6E6E6E;
+}

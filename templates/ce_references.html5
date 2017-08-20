@@ -1,3 +1,7 @@
+<?php
+	$GLOBALS['TL_CSS']['references'] = 'system/modules/references/assets/css/default.css';
+?>
+
 <?php $this->extend('block_searchable'); ?>
 
 <?php $this->block('content'); ?>
