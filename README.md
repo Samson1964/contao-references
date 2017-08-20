@@ -1,4 +1,4 @@
 References
 ==========
 
-Stellt ein Inhaltselement für einen Quellennachweis zur Verfügung.
+Stellt ein Inhaltselement fÃ¼r einen Quellennachweis zur VerfÃ¼gung.
