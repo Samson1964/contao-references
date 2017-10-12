@@ -16,4 +16,5 @@ $GLOBALS['TL_LANG']['tl_content']['references_text'] = array('Text', 'Anzuzeigen
 $GLOBALS['TL_LANG']['tl_content']['references_url'] = array('URL', 'URL mit dem der Text verlinkt wird');
 $GLOBALS['TL_LANG']['tl_content']['references_target'] = array('Ziel', 'URL im neuen Fenster öffnen');
 
-$GLOBALS['TL_LANG']['tl_content']['references_headline'] = 'Quellen';
+$GLOBALS['TL_LANG']['tl_content']['references_headline_singular'] = 'Quelle';
+$GLOBALS['TL_LANG']['tl_content']['references_headline_plural'] = 'Quellen';

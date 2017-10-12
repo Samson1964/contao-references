@@ -8,7 +8,11 @@
 
 <ul>
 <?php foreach ($this->references as $item): ?>
-	<li>[<?= $item['nummer'] ?>] <?= $item['text'] ?></li>
+	<?php if(count($this->references) > 1): ?>
+		<li>[<?= $item['nummer'] ?>] <?= $item['text'] ?></li>
+	<?php else: ?>
+		<li><?= $item['text'] ?></li>
+	<?php endif; ?>
 <?php endforeach; ?>
 </ul>
 
